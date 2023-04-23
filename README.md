@@ -1,4 +1,6 @@
 # PrismLauncher-Portable-AutoUpdater
-This is a very damn inefficient automatic updater for PrismLauncher's Windows MSVC Portable version.
+There are two scripts present, 
 
-FOR NOW, THIS WON'T WORK ON YOUR COMPUTER UNLESS YOU CHANGE THE PATH IN THE BATCH FILE.
+The Static script that requires you to change the path of your portable directory, you may use this for stuff like fetching updates every week using Task Scheduler or similiar. 
+
+The dynamic script asks for the path on launch, if the folder has no existing launcher files it will just extract to that folder.
